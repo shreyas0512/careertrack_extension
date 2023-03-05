@@ -2,7 +2,7 @@ export{}
 
 chrome.runtime.onInstalled.addListener(function () {
     chrome.contextMenus.create({
-      title: 'Add"%s"',
+      title: 'Add your job',
       contexts: ["all"],
       id: "myContextMenuId"
     })
